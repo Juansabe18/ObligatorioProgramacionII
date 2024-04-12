@@ -1,1 +1,4 @@
-/obj/
+obj/
+Dominio/obj/
+Dominio/bin/*
+Obligatorio/bin/*
