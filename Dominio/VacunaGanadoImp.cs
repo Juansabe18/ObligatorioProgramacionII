@@ -12,9 +12,8 @@ namespace Dominio
             _fechaRecibida = fechaRecibida;
         }
 
-        public DateTime CalcularVencimiento() {
-            DateTime fecha = _fechaRecibida.AddYears(1);
-            return fecha;
+        public DateTime CalcularVencimiento() {      
+            return _fechaRecibida.AddYears(1);
         }
 
         public override string ToString()
